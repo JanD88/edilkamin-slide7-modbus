@@ -1,9 +1,11 @@
-# Edilkamin Slide 7 — Home Assistant control over Modbus
+# Edilkamin Slide 7 Home Assistant control over Modbus
 
 An ESPHome config that brings an **Edilkamin Slide 7 (PELE1712)** pellet stove
 into Home Assistant, over the Modbus RTU bus already present on its control
 board. An ESP32 sits on the board's A/B pair and is discovered by Home Assistant
 over the ESPHome API
+
+> **This can start a fire:** a target temperature written above room temperature has been observed igniting the stove on its own, with nobody touching the power switch.
 
 
 ## Entities
