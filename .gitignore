@@ -1,0 +1,15 @@
+# Credentials — never commit these.
+secrets.yaml
+*.key
+
+# ESPHome build output.
+.esphome/
+build/
+*.bin
+
+# Editor / OS noise.
+*.bak
+*.bak[0-9]
+*~
+__pycache__/
+.DS_Store
