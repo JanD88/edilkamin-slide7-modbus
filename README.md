@@ -68,4 +68,4 @@ both the setpoint and the power level accept writes.
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE).
+MIT see [LICENSE](LICENSE).
